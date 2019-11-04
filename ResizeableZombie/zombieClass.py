@@ -64,7 +64,7 @@ class Zombie:
             settings.deleteMe.append(self)
             if(settings.player.MaxAmmo != settings.maxAmmo):
                 if(settings.player.MaxAmmo + 4 <= settings.maxAmmo):
-                    settings.player.MaxAmmo += math.floor(self.MaxHP / settings.bulletDamage)
+                    settings.player.MaxAmmo += math.floor(self.MaxHP / settings.bulletDamage) - 1
                 else:
                     settings.player.MaxAmmo = settings.maxAmmo
 

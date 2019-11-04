@@ -52,6 +52,7 @@ class PlayButton:
         settings.instances.insert(0, HUDClass.HUD())
         settings.player = playerClass.Player(3, [settings.screenSize[0] / 2, settings.screenSize[1] / 2])
         settings.instances.append(settings.player)
+        settings.score = 0
         #settings.instances.insert(0, zombieClass.Zombie([300, 400], 3))
         for x in range(1):
             settings.instances.insert(0, opstacleClass.Opstacle([random.randint(0, 300), random.randint(0, 300)], True))

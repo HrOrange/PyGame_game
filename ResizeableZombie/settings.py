@@ -43,7 +43,7 @@ TimeBetweenZombieSpawn = 2
 ZombieSize = 1
 maxAmmo = 180
 ZombieCount = 0
-ZombieSpeed = 1
+ZombieSpeed = 1.5
 DeltaT = 0
 bulletDamage = 30
 
